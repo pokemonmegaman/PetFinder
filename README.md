@@ -16,14 +16,14 @@ This is a Kernels-only competition. At the end of the competition, test data wil
 
 ## File descriptions
 
-train.csv - Tabular/text data for the training set
-test.csv - Tabular/text data for the test set
+* train.csv - Tabular/text data for the training set
+* test.csv - Tabular/text data for the test set
 sample_submission.csv - A sample submission file in the correct format
 breed_labels.csv - Contains Type, and BreedName for each BreedID. Type 1 is dog, 2 is cat.
 color_labels.csv - Contains ColorName for each ColorID
 state_labels.csv - Contains StateName for each StateID
 
-##Data Fields
+## Data Fields
 
 PetID - Unique hash ID of pet profile
 AdoptionSpeed - Categorical speed of adoption. Lower is faster. This is the value to predict. See below section for more info.
